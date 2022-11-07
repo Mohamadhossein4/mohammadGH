@@ -1,9 +1,9 @@
-<html lang="">
+<html >
 <head>
     <title></title>
 </head>
 <body>
-<tableborder="10">
+<table border="10">
     <?php
     for ($m = 1; $m <= 20; $m++) {
         echo "<tr>";
@@ -15,6 +15,7 @@
         echo "</tr>";
     };
     ?>
+</table>
 </body>
 </html>
 
